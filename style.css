@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+
+#container, #header, #footer{
+  width: 1024px;
+  margin: auto;
+  padding: 15px;
+}
+
+ul li{
+  display: inline;
+  margin-right: 10px;
+  border: 1px solid orange;
+  padding: 5px 10px;
+  background-color: orange;
+  color: white;
+}
+
+#logo{
+  float: left;
+}
+
+#top-menu{
+  float: right;
+  margin-top: 80px;
+}
+
+#top-menu a{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+#container{
+  background-color: white;
+}
+
+#header{
+  background-color: darkgrey;
+  padding-bottom: 5px;
+  border-bottom: 15px solid black;
+}
+
+img{
+  width: 300px;
+}
+
+.item-new-release {
+  width: 250px;
+  float: left;
+  margin-right: 30px;
+  background-color: lightgray;
+  min-height: 430px;
+  padding: 10px;
+}
+
+.item-new-release img{
+  width: 240px;
+  
+}
+
+#content{
+  margin-bottom: 30px;
+}
+
+#new-releases, #about{
+  float: left;
+}
+
+#new-releases{
+  width:  600px;
+}
+
+#about{
+  width:  400px;
+}
+
+.item-book{
+  width: 310px;
+  float: left;
+  background-color: lightgray;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+#footer{
+  background-color: black;
+}
+
+#footer h3{
+  color: white;
+  text-align: center;
+}
